@@ -17,6 +17,7 @@
 
 .header nav ul {
     list-style-type: none;
+
 }
 
 .header nav ul li {
@@ -103,6 +104,12 @@ p {
     float:left;
     padding:15px;
     display: flex;
+}
+
+.clearfix::after{
+    content: " ";
+    display:block;
+    clear: both;
 }
 
 .online-reputation-management h2 {
